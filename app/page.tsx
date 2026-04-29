@@ -1,4 +1,5 @@
 import React from "react";
+import type { CSSProperties } from "react";
 
 const links = {
   resume: "/images/Eric_Han_Resume.pdf",
@@ -79,7 +80,7 @@ const skills = [
   "ISO 9001:2015"
 ];
 
-const styles = {
+const styles: Record<string, CSSProperties> = {
   page: {
     minHeight: "100vh",
     background:
